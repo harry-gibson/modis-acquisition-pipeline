@@ -1,0 +1,10 @@
+band_name,product_url,layer_template
+lst_day,http://e4ftl01.cr.usgs.gov/MOLT/MOD11A2.006,"'HDF4_EOS:EOS_GRID:""{}"":MODIS_Grid_8Day_1km_LST:LST_Day_1km'"
+lst_night,http://e4ftl01.cr.usgs.gov/MOLT/MOD11A2.006,"'HDF4_EOS:EOS_GRID:""{}"":MODIS_Grid_8Day_1km_LST:LST_Day_1km'"
+brdf1,https://e4ftl01.cr.usgs.gov/MOTA/MCD43D62.006/,"""{}"""
+brdf2,https://e4ftl01.cr.usgs.gov/MOTA/MCD43D63.006/,"""{}"""
+brdf3,https://e4ftl01.cr.usgs.gov/MOTA/MCD43D64.006/,"""{}"""
+brdf4,https://e4ftl01.cr.usgs.gov/MOTA/MCD43D65.006/,"""{}"""
+brdf5,https://e4ftl01.cr.usgs.gov/MOTA/MCD43D66.006/,"""{}"""
+brdf6,https://e4ftl01.cr.usgs.gov/MOTA/MCD43D67.006/,"""{}"""
+brdf7,https://e4ftl01.cr.usgs.gov/MOTA/MCD43D68.006/,"""{}"""

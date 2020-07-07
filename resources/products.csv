@@ -1,6 +1,6 @@
 var_name,bands,calc,min_clip,max_clip
 LST_Day,lst_day,lst_day*0.02 + (-273.15),-100,100
 LST_Night,lst_night,lst_night*0.02 + (-273.15),-100,100
-EVI,"brdf1,brdf2,brdf3",((((brdf2 - brdf1)* 0.001) / ((brdf2 + (brdf1 * 6.0) - (brdf3 * 7.5))*0.001 + 1.0) * 2.5)),0,1
-TCB,"brdf1,brdf2,brdf3,brdf4,brdf5,brdf6,brdf7",(brdf1*0.4395 + brdf2*0.5945 + brdf3*0.2460 + brdf4*0.3918 + brdf5*0.3506 + brdf6*0.2136 + brdf7*0.2678)*0.001,-100,100
-TCW,"brdf1,brdf2,brdf3,brdf4,brdf5,brdf6,brdf7",(brdf1*0.1147 + brdf2*0.2489 +brdf3*0.2408 + brdf4*0.3132 + brdf5*-0.3122 + brdf6*-0.6416 + brdf7*-0.5087)*0.001,-100,100
+EVI,brdf1;brdf2;brdf3,((((brdf2 - brdf1)* 0.001) / ((brdf2 + (brdf1 * 6.0) - (brdf3 * 7.5))*0.001 + 1.0) * 2.5)),0,1
+TCB,brdf1;brdf2;brdf3;brdf4;brdf5;brdf6;brdf7,(brdf1*0.4395 + brdf2*0.5945 + brdf3*0.2460 + brdf4*0.3918 + brdf5*0.3506 + brdf6*0.2136 + brdf7*0.2678)*0.001,-100,100
+TCW,brdf1;brdf2;brdf3;brdf4;brdf5;brdf6;brdf7,(brdf1*0.1147 + brdf2*0.2489 +brdf3*0.2408 + brdf4*0.3132 + brdf5*-0.3122 + brdf6*-0.6416 + brdf7*-0.5087)*0.001,-100,100
